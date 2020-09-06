@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/backeound"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout android:layout_height="match_parent"  android:orientation="vertical" android:layout_width="match_parent" android:weightSum="10">
+
+
+        <GridLayout  android:layout_height="match_parent" android:layout_width="match_parent" android:alignmentMode="alignMargins" android:rowCount="4" android:columnCount="2">
+
+
+            <androidx.cardview.widget.CardView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_columnWeight="1" android:layout_rowWeight="1" app:cardElevation="6dp" app:cardCornerRadius="12dp" android:layout_margin="12dp" android:id="@+id/questionbank">
+
+
+                <LinearLayout android:background="@drawable/buttonshape" android:layout_height="match_parent" android:orientation="vertical" android:layout_width="match_parent" android:gravity="center" android:padding="16dp">
+
+                    <ImageView android:layout_height="80dp" android:layout_width="80dp" android:src="@drawable/indexq"/>
+
+                    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textStyle="bold" android:text="অডিও" android:textSize="18sp" android:textColor="@android:color/white" android:layout_marginTop="12dp"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_columnWeight="1" android:layout_rowWeight="1" app:cardElevation="6dp" app:cardCornerRadius="12dp" android:layout_margin="12dp" android:id="@+id/marks">
+
+
+                <LinearLayout
+                    android:background="@drawable/buttonshape" android:layout_height="match_parent" android:orientation="vertical" android:layout_width="match_parent" android:gravity="center" android:padding="16dp">
+
+                    <ImageView android:layout_height="80dp" android:layout_width="80dp" android:src="@drawable/images"/>
+
+                    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textStyle="bold" android:text=" প্রশ্নোত্তর" android:textSize="18sp" android:textColor="@android:color/white" android:layout_marginTop="12dp"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_columnWeight="1" android:layout_rowWeight="1" app:cardElevation="6dp" app:cardCornerRadius="12dp" android:layout_margin="12dp" android:id="@+id/math">
+
+
+                <LinearLayout android:background="@drawable/buttonshape" android:layout_height="match_parent" android:orientation="vertical" android:layout_width="match_parent" android:gravity="center" android:padding="16dp">
+
+                    <ImageView android:layout_height="80dp" android:layout_width="80dp" android:src="@drawable/ic_baseline_desktop_windows_24"/>
+
+                    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textStyle="bold" android:text="পিস টিভি" android:textSize="18sp" android:textColor="@android:color/white" android:layout_marginTop="12dp"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_columnWeight="1" android:layout_rowWeight="1" app:cardElevation="6dp" app:cardCornerRadius="12dp" android:layout_margin="12dp" android:id="@+id/english">
+
+
+                <LinearLayout android:background="@drawable/buttonshape" android:layout_height="match_parent" android:orientation="vertical" android:layout_width="match_parent" android:gravity="center" android:padding="16dp">
+
+                    <ImageView android:layout_height="80dp" android:layout_width="80dp" android:src="@drawable/ic_baseline_live_tv_24"/>
+
+                    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textStyle="bold" android:text="ভিডিও " android:textSize="18sp" android:textColor="@android:color/white" android:layout_marginTop="12dp"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_columnWeight="1" android:layout_rowWeight="1" app:cardElevation="6dp" app:cardCornerRadius="12dp" android:layout_margin="12dp" android:id="@+id/bangla">
+
+
+                <LinearLayout
+                    android:background="@drawable/buttonshape" android:layout_height="match_parent" android:orientation="vertical" android:layout_width="match_parent" android:gravity="center" android:padding="10dp">
+
+                    <ImageView android:layout_height="80dp" android:layout_width="80dp"
+                        android:background="@drawable/buttonshape" android:src="@drawable/women"/>
+
+                    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textStyle="bold" android:text="মহিলা অঙ্গন" android:textSize="18sp" android:textColor="@android:color/white" android:layout_marginTop="12dp"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_columnWeight="1" android:layout_rowWeight="1" app:cardElevation="6dp" app:cardCornerRadius="12dp" android:layout_margin="12dp" android:id="@+id/bank">
+
+
+                <LinearLayout android:background="@drawable/buttonshape" android:layout_height="match_parent" android:orientation="vertical" android:layout_width="match_parent" android:gravity="center" android:padding="16dp">
+
+                    <ImageView android:layout_height="80dp" android:layout_width="80dp" android:src="@drawable/ic_baseline_menu_book_24"/>
+
+                    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textStyle="bold" android:text="কিতাব" android:textSize="18sp" android:textColor="@android:color/white" android:layout_marginTop="12dp"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_columnWeight="1" android:layout_rowWeight="1" app:cardElevation="6dp" app:cardCornerRadius="12dp" android:layout_margin="12dp" android:id="@+id/primary">
+
+
+                <LinearLayout
+                    android:background="@drawable/buttonshape" android:layout_height="match_parent" android:orientation="vertical" android:layout_width="match_parent" android:gravity="center" android:padding="16dp">
+
+                    <ImageView android:layout_height="80dp" android:layout_width="80dp" android:src="@drawable/ic_baseline_person_24"/>
+
+                    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textStyle="bold" android:text="দারস" android:textSize="18sp" android:textColor="@android:color/white" android:layout_marginTop="12dp"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </GridLayout>
+
+    </LinearLayout>
+</RelativeLayout>
